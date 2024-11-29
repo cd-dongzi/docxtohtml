@@ -1,6 +1,6 @@
 export const tempHtml = ({
   html,
-  title = "协议",
+  title = "Document",
 }: {
   html: string;
   title?: string;
