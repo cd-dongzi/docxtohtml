@@ -1,3 +1,7 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended", "standard", "plugin:prettier/recommended"],
+  "rules": {
+    "no-undef": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
 }
