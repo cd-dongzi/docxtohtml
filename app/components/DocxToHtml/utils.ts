@@ -3,7 +3,7 @@ export const tempHtml = ({
   title = "协议",
 }: {
   html: string;
-  title?: string;;
+  title?: string;
 }): string => `
 <!doctype html>
 <html lang="en">
